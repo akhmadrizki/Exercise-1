@@ -1,0 +1,119 @@
+*{
+	margin: 0;
+	padding: 0;
+	font-family: syne;
+}
+@font-face{
+	font-family: syne;
+	src: url(../font/Syne-Regular.otf);
+}
+@font-face{
+	font-family: Montserrat-Regular;
+	src: url(../font/Montserrat-Regular.ttf);
+}
+/*left section*/
+.wrapper{
+	float: left;
+	width: 17em;
+	height: 100vh;
+	background: #0096b5;
+	position: fixed;
+	top: 0;
+	left: 0;
+	text-align: center;
+}
+.images{
+	width: 170px;
+    height: 170px;
+    margin: 185px 45px 0;
+    border-radius: 170px;
+    border: .3rem solid rgba(255, 255, 255, 0.56);
+}
+.announce{
+	text-transform: capitalize;
+	color: #fff;
+	font-size: 42px;
+}
+/* Right section */
+.container{
+	width: 80%;
+    padding-left: 1em;
+    height: 100vh;
+    background: #fff;
+    float: right;
+}
+.text-name{
+	color: #565656;
+    font-size: 64px;
+    position: relative;
+    top: 1em;
+    padding: 0 0 0 2em;
+    text-transform: uppercase;
+    font-family: Montserrat-Regular;
+}
+.subheading{
+	color: #828282;
+	padding: 0 0 0 4em;
+    top: 1.8em;
+    font-weight: 300;
+    position: relative;
+    font-size: 32px;
+    font-family: Montserrat-Regular;
+}
+.main{
+	width: 100%;
+	margin-top: 8em;
+}
+.content{
+	width: 30.33%;
+	padding: 8px 0;
+	display: inline-block;
+	margin-left:2%;
+	color: #565656;
+	border-radius: 4px;
+	text-align: center;
+	background: #fff;
+	box-shadow: 0 0 10px rgba(100,100,100,0.4);
+}
+.text-desk{
+	font-size: 18px;
+	color: #828282;
+	margin-top: 8px;
+}
+.medsos{
+	width: 98%;
+    margin-top: 4em;
+    float: right;
+    padding: 2px 0;
+}
+.col-medsos{
+	width: 5%;
+	border-radius: 50px;
+	height: 50px;
+	color: #fff;
+	cursor: pointer;
+	display: inline-block;
+	margin-right: 1%;
+	background: #565656;
+	text-align: center;
+	transition: ease-in-out .3s;
+    transform: rotate(0);
+}
+.col-medsos:hover{
+	background: #0096b5;
+    transform: rotate(-360deg);
+}
+.center{
+	margin-top: 9px;
+}
+.footer{
+	width: 100%;
+	float: left;
+	padding: 2px 0;
+	text-align: center;
+	margin-top: 4em;
+	color: #0096b5;
+}
+.footer p{
+	font-family: Montserrat-Regullar;
+}
